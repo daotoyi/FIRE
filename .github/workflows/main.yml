@@ -32,7 +32,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          REPOSITORY_NAME: daotoyi/FIRE
+          REPOSITORY_NAME: daotoyi/test
           BRANCH: main
           FOLDER: public
           #注意这里的 public 是仓库根目录下的 public
