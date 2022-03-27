@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estate on FIRE</title>
+    <link>https://fire.daotoyi.cn/categories/Estate/</link>
+    <description>Recent content in Estate on FIRE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 08 Mar 2022 22:11:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://fire.daotoyi.cn/categories/Estate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>西安</title>
+      <link>https://fire.daotoyi.cn/posts/estate-xi&#43;an/</link>
+      <pubDate>Tue, 08 Mar 2022 22:11:35 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/posts/estate-xi&#43;an/</guid>
+      <description>潜龙在渊</description>
+    </item>
+    
+  </channel>
+</rss>

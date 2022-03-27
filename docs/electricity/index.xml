@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FIRE</title>
+    <link>https://fire.daotoyi.cn/docs/electricity/</link>
+    <description>Recent content on FIRE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://fire.daotoyi.cn/docs/electricity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>产品对比</title>
+      <link>https://fire.daotoyi.cn/docs/electricity/copmare-products/</link>
+      <pubDate>Sun, 13 Mar 2022 12:34:08 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/electricity/copmare-products/</guid>
+      <description>对比项目     常规录波器 电能质量监测1 结算计量装置2 模拟 PMU3 行波测距4     通信-网口 ≥4 有 2 RJ45 ≥4 ≥4   通信-串口 - 有(RS232/485) 2 RS485 - -   通信-USB 3 有  有 有   显示 - 无 或者 有(与按键交互) 有（LCD） 有(按键或触屏) -   按键 有（录波） 无 或者 有(控制显示) 有 有(控制显示) -   对时 IRIG-B IRIG-B IRIG-B IRIG-B(光或电) IRIG-B   采集频率 常用 12.</description>
+    </item>
+    
+    <item>
+      <title>电能质量监测</title>
+      <link>https://fire.daotoyi.cn/docs/electricity/power-quality-monitoring/</link>
+      <pubDate>Sun, 13 Mar 2022 11:49:36 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/electricity/power-quality-monitoring/</guid>
+      <description>规格描述 通过对引入的电压、电流信号进行分析处理，实现对电能质量指标进行监测的专用设备，包括电能质量监测终端和便携式电能质量分析仪.
+  监测装置分为 A 级和 S 级(根据测量方法及性能)：
+ A 级用于需要进行精确测量的场合，如标准符合性检査、解决争议、电能质量合同仲裁等 S 级用于不需要较高精确度的应用场合，如电能质量调査统计、排除故障等。    监测装置的分类
+ 按信号的接入方式分类  直接接入式：待测电压、电流信号直接接入监测装置，不需要中间设备； 间接接入式：待测电压、电流信号经传感器接入监测装置      按接入信号的类别分类
+ 模拟接入式：待测电压、电流的模拟信号接入监测装置； 数字接入式：待测电压、电流的数字信号接入监测装置。    模拟量接入   电压信号输入回路
+ 额定电压信号：  互感器接入法：(≈100/1.7)V 和 100V 直接接入法：220V 和 380V.   过压能力 4 倍额定电压允许 1s.    电流信号输入回路
+ 接入范围：额定电流 1A 或 5A: 过载能力 1.5 倍额定电流连续，10 倍额定电流持续 1s。    数量量接入 接入合并单元（采样值至少采用 12800Hz 的采样频率进行同步采样，采样值同步精度应不大于 1us)</description>
+    </item>
+    
+    <item>
+      <title>结算计量装置</title>
+      <link>https://fire.daotoyi.cn/docs/electricity/settlement-measurement/</link>
+      <pubDate>Sun, 13 Mar 2022 11:47:53 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/electricity/settlement-measurement/</guid>
+      <description>触发 任一指标达到设定的触发条件时，应同时触发所有电压、电流回路， 并记录波形和有效值。对于波形记录，每周波应至少采样 256 点
+采样频率至少为 256*50=12800Hz
+尺寸 外形尺寸规格： 290mm（高）×170mm（宽）×85mm（厚）；
+  显示 采用 LCD 显示信息，液晶屏可视尺寸为 85mm（长）×50mm（宽）
+按键 按键操作响应时间不大于 1s，无卡死或接触不良现象，各部件应紧固.
+输出接口  电能量脉冲输出、功能测试接口、报警输出、RS485 接口、调制型红外接口要求 两个 RJ45 接口，两个 RS485 接口 (宜)RS485 授时接口，采用 IRIG-B（DC)码方式与站内授时源对时.  辅助电源接口  辅助电源供电电压为（100～240）V 交、直流自适应 线路和辅助电源两种供电方式应能实现无间断自动转换  电池  抄表及全失压电池,输出电压为 6V，额定容量≥1200mAh 时钟电池,标称电压 3.6V，额定容量≥1200mAh，不可更换  测量功能 电压测量及电流测量(经互感器接入)
+ 电压测量范围： 0.05U nom ~1.5U nom ，测量误差（引用误差)不超过±0.2% 电流（含零线)测量范围：I min ~1.2I max , I min ~0.05I tr 时测量误差（引用误差)不超过±1%，0.05I tr 及以上测量误差（引用误差)不超过±0.5%；  参考  自主可控新一代变电站二次系统技术规范 装置类系列规范 6 结算计量装置 三相智能电能表技术规范  \newpage</description>
+    </item>
+    
+    <item>
+      <title>行波测距</title>
+      <link>https://fire.daotoyi.cn/docs/electricity/xing-bo-ce-ju/</link>
+      <pubDate>Sun, 13 Mar 2022 11:47:46 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/electricity/xing-bo-ce-ju/</guid>
+      <description>产品描述 500kV 及以上系统的交流线路、220kV 长度超过 50kM 或多单位维护的交流线路应配置集中式行波测距装置；其它 220kV 巡线困难的交流线路宜装设行波测距装置。
+对时 有对时功能，对时误差不大于 1μs。
+通信接口  装置应具备至少 4 个独立的 10M 及以上以太网接口。 应具备打印接口。 宜具备 USB 转存接口。  无源节点 当地告警信号应不少于 3 对硬接点输出，分别为装置起动、装置失电、装置故障。
+信号接入  对交流线路，行波测距装置可直接接入 CT 二次侧、PT 二次侧或在互感器接地回路经专用互感器提取行波信号； 对直流线路，行波测距装置通过测量直流耦合电容器接地引线电流的专用互感器提取行波信号。  采集频率 装置采样频率不小于 1MHz.</description>
+    </item>
+    
+    <item>
+      <title>边缘网关</title>
+      <link>https://fire.daotoyi.cn/docs/electricity/edge-gateway/</link>
+      <pubDate>Sun, 13 Mar 2022 11:40:47 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/electricity/edge-gateway/</guid>
+      <description>边缘网关 edge gateway 一种网关设备，部署在变电站、配电站所/台区/杆塔、分布式新能源等新兴市场主体的并网点等位置，负责采集本地电网运行数据，上送边缘集群，并实现电网运行方式切换、调频/调峰等指令操作，具备边缘计算和云边协同应用功能，支撑调度运行和市场运营。
+边缘网关根据应用场景和功能性能差异分为 I 型边缘网关、II 型边缘网关和 III 型边缘网关。
+ I 型边缘网关指部署在变电站的智能远动机。 II 型边缘网关具备交直流模拟量测量及开关量输入输出功能，应用于配电站所/台区/杆塔、分布式新能源、储能、电动汽车充电设施等场合。 III 型边缘网关从接入对象的监控系统（本地/平台）采集数据，应用于综合能源园区、虚拟电厂等场合。  接口要求 接口应满足以下要求：
+远传 2/3/4G 5G  有无线远传需求的边缘网关，应具备 1 路无线公网/专网远程通信接口，应支持 2/3/4G，宜支持 5G。  LNA 2(100/1000Mbit/s)  应具备至少 2 路以太网接口，传输速率选用 100/1000Mbit/s 全双工。  console  应至少具备 1 路本地维护接口，可支持 UART、ETH，其中 UART 支持速率 38400bps 或以上，通过本地维护接口可设置网关参数，进行软件升级等。  HPLC  可连接 HPLC 模块、微功率模块或双模模块。  UART(4RS485,2RS232)  应具备至少 4 路 RS-485，2 路 RS-232/RS-485 可切换串口，串口速率可选用 1200 bps、2400 bps、4800 bps、9600 bps、19200 bps、38400bps 等。  AD(3U3I)  II 型边缘网关应具备至少 3 路交流电压输入接口，输入额定值为 220V/320V，或 57.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fire.daotoyi.cn/docs/electricity/hidden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/electricity/hidden/</guid>
+      <description>This page is hidden in menu Example --- bookHidden: true --- File meta control page to show or not.
+ true: show false: not show  </description>
+    </item>
+    
+  </channel>
+</rss>

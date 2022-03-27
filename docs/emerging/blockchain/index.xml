@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FIRE</title>
+    <link>https://fire.daotoyi.cn/docs/emerging/blockchain/</link>
+    <description>Recent content on FIRE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://fire.daotoyi.cn/docs/emerging/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chainlink</title>
+      <link>https://fire.daotoyi.cn/docs/emerging/blockchain/chainlink/</link>
+      <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/chainlink/</guid>
+      <description>Chainlink 比特币、以太坊这样的去中心化系统提供了最小化信任特性，使得它们成为全球化、低摩擦的协作平台。但是归根到底，它们都是一个封闭的系统，其最小化信任特性也仅限于系统内部，它们对区块链外部数据是不提供保证的。
+白皮书的介绍，Chainlink 通过使用 API 将链上和链外联系起来。它通过获取链上资源（如以太坊、比特币和 Hyperledger 等区块链），并通过 API 将其连接到链下资源（如市场数据、银行支付、零售支付、后端系统、事件数据等）来实现链下数据与链上智能合约的交互。
+通过引入多个节点以提供“去中心化”特性，同时分发代币激励去引导众多节点诚实地执行工作
+官网：http://www.smartcontract.com/link
+白皮书：https://link.smartcontract.com/whitepaper</description>
+    </item>
+    
+    <item>
+      <title>Create NFTs</title>
+      <link>https://fire.daotoyi.cn/docs/emerging/blockchain/create-nfts/</link>
+      <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/create-nfts/</guid>
+      <description>Reference  NFT制作与OpenSea部署教程
+Resource NFT Brownie Mix 工作代码库，有非常多样板代码。
+Metamask Infura Infura 是出色的开放以太坊节点，它免费提供了标准的 RPC API 可供开发者 调用。除了支持以太坊，Infura 还提供 IPFS 网关和 API，并且提供多个 数字货币交易所的行情信息 API。
+为开发人员提供了一种不必运行全节点就可以连接以太坊网络的方法
+Infura 是一种 IaaS（Infrastructure as a Service）产品，目的是为了降低访问以太坊数据的门槛。可以让你的 dApp 快速接入以太坊的平台，不需要本地运行以太坊节点。
+Infura 是由唯一的一家供应商运营的——以太坊开发工作室 Consensys——它依赖于亚马逊托管的云服务器。
+Install eth-brownie git clone https://github.com/PatrickAlphaC/nft-mixcd nft-mixpip install eth-brownie# apt install npmnpm install -g ganache-cli.env export PRIVATE_KEY=YOUR_KEY_HEREexport WEB3_INFURA_PROJECT_ID=YOUR_PROJECT_ID_HERE  your_key_here PRIVATE_KEY:(MetaMask: Account Details &amp;ndash;&amp;gt; Export Private Key)
+  your_project_id_here Web3 Infura Project ID</description>
+    </item>
+    
+    <item>
+      <title>ERC</title>
+      <link>https://fire.daotoyi.cn/docs/emerging/blockchain/erc/</link>
+      <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/erc/</guid>
+      <description>ERC ERC 是 Ethereum Request for Comments（以太坊征求意见提案）的缩写,，代表以太坊已正式化的提案.
+ERC-721 NFT 是一种区块链代币标准,遵守的代币标准 ERC721.
+ERC-20 “可置换”代币，这意味着那些代币是可被替换的 (replaceable) 和可互相兑换 (interchangeable)
+ERC-1155 在一定程度上融合了 ERC-20 和 ERC-721 的功能。</description>
+    </item>
+    
+    <item>
+      <title>ETH</title>
+      <link>https://fire.daotoyi.cn/docs/emerging/blockchain/ethereum/</link>
+      <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/ethereum/</guid>
+      <description>简述 智能合约平台 以太坊是第一个实现了虚拟机的区块链，因此为智能合约 - Smart Contract - 的运行提供了良好的支持环境。也正因为这个原因，以太坊被称为区块链 2.0，以区别于比特币代表的以数字加密货币为核心特征的区块链 1.0。
+将智能合约理解为机器之间的合同约定，在满足一定条件时自动 执行约定好的逻辑，例如在保险理赔流程中，如果理赔条件满足就自动 将赔偿金释放给出险人，这个流程就可以使用智能合约来实现。
+JSON RPC 去中心化应用（DApp）
+  </description>
+    </item>
+    
+    <item>
+      <title>NFT</title>
+      <link>https://fire.daotoyi.cn/docs/emerging/blockchain/nft/</link>
+      <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/nft/</guid>
+      <description>NFT NFTs (Non-Fungible Tokens，不可置换代币) 可以用一个词来总结：唯一性。这些是部署在区块链上的智能合约，代表着某种东西的唯一性。
+NFT 是区块链的一种应用，最大特点就是把网址写入区块链。
+NFT 包含的网址是没法改的，然后可以通过区块链的买卖机制，跟某一个数字钱包相关联。
+如果某个区块在你的数字钱包名下，该区块所包含的网址自然也会在你的名下。所以，NFT 很适合作为 *网址的所有权证书*。
+Reference   一文读懂NFT：全面解析NFT发展简史、价值及未来  </description>
+    </item>
+    
+    <item>
+      <title>Filecoin</title>
+      <link>https://fire.daotoyi.cn/docs/emerging/blockchain/filecoin/</link>
+      <pubDate>Sat, 12 Mar 2022 12:05:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/filecoin/</guid>
+      <description>Filecoin Filecoin 是一个去中心化的存储网络，能将海量用户的闲散存储资源充分利用起来，从而构建一套超低成本的可靠存储系统。
+没有中心，所以会用到区块链技术.
+一般区块链使用的是算力挖矿的工作量证明（Proof-of-Work mining），而 Filecoin 使用的是存储工作量证明(Proof-of-Storage)。
+Filecoin 架构 我们可以把 Filecoin 简化为两层:
+ 一个是区块链，主要是记录全网状态（一个去中心化的状态机），包括所有钱包账户和余额，市场订单匹配记录。 一个是存储的解决方案，主要包括副本策略（纠删码，多副本），端到端加密，存储时间和续费策略，存储市场匹配等。  它主要包括 4 种角色：
+ 存储矿工（Storage miners）： 将自己的磁盘抵押出来，提供存储服务，类似云厂商的对象存储 检索矿工（Retrieval miners）：可以帮助用户快速的检索到内容，类似于传统意义的 CDN 存储客户端（Storage clients）：能够上传内容到 Filecoin，类似对象存储上传客户端 检索客户端（Retrieval clients）：能够从 Filecin 检索到内容，类似对象存储下载客户端  市场 Filecoin 一共有两个市场:
+ 存储市场 检索市场  只有存储矿工才有系统的奖励，才真正属于IPFS的挖矿(系统的奖励).
+挖矿 挖矿就是在 Filecoin 网络中获取虚拟货币（FIL），主要可以通过以下途径：
+ 成为存储矿工，在市场中通过报价的方式出租存储空间，当匹配成功，将获取相应报酬 成为检索矿工，帮助内容下载客户端下载内容 成为数据修复矿工，帮助修复丢失或损坏的数据  </description>
+    </item>
+    
+    <item>
+      <title>IPFS and Filecoin</title>
+      <link>https://fire.daotoyi.cn/docs/emerging/blockchain/ipfs-and-filecoin/</link>
+      <pubDate>Sat, 12 Mar 2022 12:05:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/ipfs-and-filecoin/</guid>
+      <description>区别  IPFS addresses and moves content; Filecoin is the missing incentive layer。
+ IPFS 主要负责 P2P 网络中的内容寻值和内容传输，而 Filecoin 是内容永久存储的激励层(运行在ipfs上)，它们之间是相互补充的关系。
+Filecoin与IPFS是两个项目:
+ IPFS是底层协议，并没有ICO. Filecoin进行了ICO，代币名称为FIL。  Filecoin的代币总量20亿，70%用于奖励矿工.    </description>
+    </item>
+    
+    <item>
+      <title>IPFS</title>
+      <link>https://fire.daotoyi.cn/docs/emerging/blockchain/ipfs/</link>
+      <pubDate>Sat, 12 Mar 2022 12:03:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/ipfs/</guid>
+      <description>IPFS IPFS 全称为 Inter Planetary File System. 星际文件系统.
+ 用于存储和访问文件、网站、应用程序和数据的分布式文件系统。 “一个点对点的超媒体传输协议”.点对点的分布式文件存储系统. 它的目标是成为更快、更安全、更开放的下一代互联网,用来替代传统中心化的服务器模式. 所有的IPFS节点组成一个分布式网络，每个节点都可以存储文件. 用户可以从IPFS构建的网络中以DHT(Distributed Hash Table，分布式哈希表) 的方式获取文件.  工作原理 IPFS 可以从本质上改变网络数据的分发机制
+ 每个文件及其中的所有块都被赋予一个称为加密散列的唯一指纹。 IPFS 通过网络删除重复具有相同哈希值的文件，通过计算是可以判断哪些文件是冗余重复的。并跟踪每个文件的版本历史记录。 每个网络节点只存储它感兴趣的内容，以及一些索引信息，有助于弄清楚谁在存储什么。 查找文件时，你通过文件的哈希值就可以在网络查找到储存改文件的节点，找到想要的文件。 使用称为 IPNS（去中心化命名系统），每个文件都可以被协作命名为易读的名字。通过搜索，就能很容易地找到想要查看的文件。  从 IPFS 的介绍可以看出， IPFS 设想的是让所有的网络终端节点不仅仅只充当 Browser 或 Client 的角色，其实人人都可以作为这个网络的运营者，人人都可以是服务器。
+基本使用 Install &amp;amp; use 参考官网：https://ipfs.io/docs/install 使用参考：https://ipfs.io/docs/getting-started
+wget https://dist.ipfs.io/go-ipfs/v0.4.14/go-ipfs_v0.4.14_linux-amd64.tar.gztar xvfz go-ipfs_v0.4.14_linux-amd64.tar.gzcd go-ipfs./install.sh# testipfs help# startipfs init# start daemon to keep connection with internetipfs daemon &amp;amp;# show point connectted on IPFSipfs swarm peersPractice 上传GitHub Pages主页到IPFS</description>
+    </item>
+    
+  </channel>
+</rss>
