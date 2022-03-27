@@ -1,6 +1,6 @@
 +++
 title = "居住证,工作居住证,北京户口"
-lastmod = 2022-03-13T16:24:45+08:00
+lastmod = 2022-03-27T10:47:05+08:00
 categories = ["Concept"]
 draft = true
 +++

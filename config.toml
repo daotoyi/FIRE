@@ -45,9 +45,9 @@ enableGitInfo = true
   weight = 10
 
 [[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/hugo-book/"
-  weight = 40
+  name = "Home"
+  url = "https://daotoyi.cn/"
+  weight = 20 
 
 [[menu.after]]
   name = "Home FIRE"
@@ -55,9 +55,11 @@ enableGitInfo = true
   weight = 30
 
 [[menu.after]]
-  name = "Home"
-  url = "https://daotoyi.cn/"
-  weight = 20 
+  # name = "Hugo Themes"
+  # url = "https://themes.gohugo.io/hugo-book/"
+  name = "Home Site"
+  url = "https://site.daotoyi.cn/"
+  weight = 40
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -86,7 +88,8 @@ enableGitInfo = true
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
   # BookRepo = 'https://github.com/alex-shpak/hugo-book'
-  BookRepo = 'https://github.com/daotoyi/FIRE'
+  # BookRepo = 'https://github.com/daotoyi/FIRE'
+  BookRepo = 'https://github.com/daotoyi/FIRE/blob/main'
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
