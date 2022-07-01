@@ -3,7 +3,108 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/options/basic/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/archive/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fire.daotoyi.cn/docs/invest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://fire.daotoyi.cn/zh/docs/invest/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/options/case/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/options/strategy/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/shiti/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fire.daotoyi.cn/docs/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://fire.daotoyi.cn/zh/docs/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/general/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/wuliu/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fire.daotoyi.cn/docs/emerging/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://fire.daotoyi.cn/zh/docs/emerging/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/ecommerce/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/options/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/futures/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/stocks/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fire.daotoyi.cn/zh/categories/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -17,7 +118,98 @@
   </url>
   
   <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fire.daotoyi.cn/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://fire.daotoyi.cn/zh/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/categories/Shopee/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/ecommerce/shopee-instruction/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/categories/Power/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/electricity/xin-ceng-yuan-chu-neng/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/categories/StartupBusiness/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/shiti/xiao-qu-hui-yuan-fei/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/categories/View/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/posts/pan-duan-chuang-ye-xiang-mu/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/electricity/copmare-products/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/electricity/power-quality-monitoring/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/electricity/settlement-measurement/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/electricity/xing-bo-ce-ju/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/electricity/edge-gateway/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/categories/Archive/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/tags/RayDalio/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fire.daotoyi.cn/zh/tags/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -31,8 +223,128 @@
   </url>
   
   <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/archive/money-credit-debt/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/categories/Opportunity/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/inbox/domain-register/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/chainlink/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/create-nfts/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/erc/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ethereum/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/nft/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/filecoin/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ipfs-and-filecoin/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ipfs/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/shiti/mi-da-yin-yue/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/wuliu/jitu/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/project/shiti/kuaican/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/general/about-fund/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/general/about-invest/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/general/basic-concpetion/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/options/basic/options/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/invest/hidden/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fire.daotoyi.cn/docs/invest/hidden/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://fire.daotoyi.cn/zh/docs/invest/hidden/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/posts/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fire.daotoyi.cn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://fire.daotoyi.cn/zh/posts/"
+                />
+  </url>
+  
+  <url>
     <loc>https://fire.daotoyi.cn/zh/</loc>
-    <lastmod>2022-03-27T17:51:29+08:00</lastmod>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,6 +354,41 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://fire.daotoyi.cn/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/blockchain/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fire.daotoyi.cn/docs/emerging/blockchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/electricity/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fire.daotoyi.cn/zh/docs/emerging/inbox/</loc>
+    <lastmod>2022-07-01T23:44:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fire.daotoyi.cn/docs/emerging/inbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://fire.daotoyi.cn/zh/docs/emerging/inbox/"
                 />
   </url>
   

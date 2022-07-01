@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="新能源储能电站 主要储能类型及特点 储能系统按照能量存储方式的不同可以分为机械储能、电化学储能、电磁储能、热储能、 化学燃料储能等类型。其中
+ 机械储能包括抽水蓄能、压缩空气和飞轮储能； 电化学储能包括锂离 子、钠硫、液流、铅酸电池储能等； 电磁储能包括超导、超级电容和高能密度电容储能； 热储能 包括热水罐、熔岩储能、相变储能等； 化学燃料储能中最具应用前景的是氢储能。  目前适用于电网的储能主要为前两种储能，即 机械储能 和 电化学储能 ，另外随着制氢、储 氢工艺的成熟， 氢储能 也有望在电力系统中实现大规模应用。
+主要储能类型 抽水蓄能电站 利用电力负荷低谷时的电能抽水至上水库，在电力负荷高峰期再放水至下水库发电的水电站。它可将电网负荷低谷时的多余电能，转变为电网高峰时期的高价值电能。
+压缩空气储能 压缩空气技术分为先进绝热压缩空气储能和液化压缩空气储能两类。
+ 先进绝热压缩空气储能在电网负荷低谷期将电能用于压缩空气，将空气高压密封在储气设施（报废矿井、沉降的海底储气罐、山洞、过期油气井或新建储气井）中； 电网负荷高峰期释放压缩的空气推动透平机发电。 液化压缩空气储能利用可再生能源电能或电网负荷低谷期电能用于压缩空气，高压空气经蓄冷器预冷后节流液化，将电能以常压低温液态空气形式储存，同时存储压缩热；在电网负荷高峰期，液态空气经低温泵增压后，通过蓄冷器储存冷量并气化，经压缩热加热后，产生高压高温气体驱动空气透平机发电。  飞轮储能 原理是电能与旋转物体机械能相互转化。储能阶段，通过电动机拖动飞轮，使飞轮加速到一定的转速，将电能转化为机械能；在能量释放阶段，电动机作发电机运行，使飞轮减速，将机械能转化为电能。
+锂电池储能 锂离子电池分为磷酸铁锂、三元锂、钛酸锂等几种。锂离子充放电的过程， 就是锂离子在正负极间不断嵌入和脱嵌的过程。
+氢储能 氢能以其高能量密度、无污染的特点成为未来能源的重要发展方向。弃风弃电可以制氢，目前电氢电（电力转化为氢气，氢气再转化为电力）储能成本 高效率低，不如电池直接储电。但是在移动动力装置方面氢能有很大优势， 弃风弃光弃水制氢后供给各种燃料电池，为汽车和船舶等移动装置提供动力源。但储氢和运氢目前还存在较大技术难题。用氢领域，燃 料电池造价高昂且寿命短，仍然需要时间进行进一步的技术优化
+电化学储能电站协调控制器 基本概念及产品 电化学储能电站 通过电化学介质进行可循环电能存储、转换及释放的电站。
+协调控制器 CCU 具备监测并网点的电压、频率和功率，可接收调度和电化学储能电站监控系统的调控指令，控制多 台储能变流器，实现整站一次调频、动态无功调压等控制功能的装置。
+储能变流器 PCS 连接电池系统与电网(和/或负荷)，实现功率双向变换的装置.
+一次调频功能 主要功能：
+ 能实时监测并网点电压，当电压变化超出调压死区范围时，主动实施动态无功调压功能。 在储能电站并网点允许的电压范围内实施调压。 动态无功调压应在各 PCS 允许输出的能力范围内合理分配无功功率。  对外接口 通讯  与调度及电化学储能电站监控系统的通信，应采用 以太网口 或 S485 通信接口； 与 PCS 或其他重要设备的通信，宜采用 以太网 或 光纤 接口； 装置应具有 开关量输入和输出 接口。  对时 需要，接口未明确">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="新能源储能电站" />
+<meta property="og:description" content="新能源储能电站 主要储能类型及特点 储能系统按照能量存储方式的不同可以分为机械储能、电化学储能、电磁储能、热储能、 化学燃料储能等类型。其中
+ 机械储能包括抽水蓄能、压缩空气和飞轮储能； 电化学储能包括锂离 子、钠硫、液流、铅酸电池储能等； 电磁储能包括超导、超级电容和高能密度电容储能； 热储能 包括热水罐、熔岩储能、相变储能等； 化学燃料储能中最具应用前景的是氢储能。  目前适用于电网的储能主要为前两种储能，即 机械储能 和 电化学储能 ，另外随着制氢、储 氢工艺的成熟， 氢储能 也有望在电力系统中实现大规模应用。
+主要储能类型 抽水蓄能电站 利用电力负荷低谷时的电能抽水至上水库，在电力负荷高峰期再放水至下水库发电的水电站。它可将电网负荷低谷时的多余电能，转变为电网高峰时期的高价值电能。
+压缩空气储能 压缩空气技术分为先进绝热压缩空气储能和液化压缩空气储能两类。
+ 先进绝热压缩空气储能在电网负荷低谷期将电能用于压缩空气，将空气高压密封在储气设施（报废矿井、沉降的海底储气罐、山洞、过期油气井或新建储气井）中； 电网负荷高峰期释放压缩的空气推动透平机发电。 液化压缩空气储能利用可再生能源电能或电网负荷低谷期电能用于压缩空气，高压空气经蓄冷器预冷后节流液化，将电能以常压低温液态空气形式储存，同时存储压缩热；在电网负荷高峰期，液态空气经低温泵增压后，通过蓄冷器储存冷量并气化，经压缩热加热后，产生高压高温气体驱动空气透平机发电。  飞轮储能 原理是电能与旋转物体机械能相互转化。储能阶段，通过电动机拖动飞轮，使飞轮加速到一定的转速，将电能转化为机械能；在能量释放阶段，电动机作发电机运行，使飞轮减速，将机械能转化为电能。
+锂电池储能 锂离子电池分为磷酸铁锂、三元锂、钛酸锂等几种。锂离子充放电的过程， 就是锂离子在正负极间不断嵌入和脱嵌的过程。
+氢储能 氢能以其高能量密度、无污染的特点成为未来能源的重要发展方向。弃风弃电可以制氢，目前电氢电（电力转化为氢气，氢气再转化为电力）储能成本 高效率低，不如电池直接储电。但是在移动动力装置方面氢能有很大优势， 弃风弃光弃水制氢后供给各种燃料电池，为汽车和船舶等移动装置提供动力源。但储氢和运氢目前还存在较大技术难题。用氢领域，燃 料电池造价高昂且寿命短，仍然需要时间进行进一步的技术优化
+电化学储能电站协调控制器 基本概念及产品 电化学储能电站 通过电化学介质进行可循环电能存储、转换及释放的电站。
+协调控制器 CCU 具备监测并网点的电压、频率和功率，可接收调度和电化学储能电站监控系统的调控指令，控制多 台储能变流器，实现整站一次调频、动态无功调压等控制功能的装置。
+储能变流器 PCS 连接电池系统与电网(和/或负荷)，实现功率双向变换的装置.
+一次调频功能 主要功能：
+ 能实时监测并网点电压，当电压变化超出调压死区范围时，主动实施动态无功调压功能。 在储能电站并网点允许的电压范围内实施调压。 动态无功调压应在各 PCS 允许输出的能力范围内合理分配无功功率。  对外接口 通讯  与调度及电化学储能电站监控系统的通信，应采用 以太网口 或 S485 通信接口； 与 PCS 或其他重要设备的通信，宜采用 以太网 或 光纤 接口； 装置应具有 开关量输入和输出 接口。  对时 需要，接口未明确" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fire.daotoyi.cn/zh/docs/electricity/xin-ceng-yuan-chu-neng/" />
+<meta property="article:published_time" content="2022-04-17T21:54:20+08:00" />
+<meta property="article:modified_time" content="2022-07-01T23:44:44+08:00" />
+<title>新能源储能电站 | FIRE</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.1bf96331d413d04f4d775c9997379c9c2f884482a30d1ad45208b7ef6f61a3d6.css" integrity="sha256-G/ljMdQT0E9Nd1yZlzecnC&#43;IRIKjDRrUUgi3729ho9Y=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/zh.search.min.813274da96d5b35c08bf427949aa78b442936369ed7247178dc70499905c13ac.js" integrity="sha256-gTJ02pbVs1wIv0J5Sap4tEKTY2ntckcXjccEmZBcE6w=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js" integrity="sha256-dKi7B/C&#43;6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/zh/"><img src="/logo.png" alt="Logo" /><span>FIRE</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://fire.daotoyi.cn/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/" class="">投资项目</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ee4f65c7f23c4b3b854cad49fb92730d" class="toggle"  />
+    <label for="section-ee4f65c7f23c4b3b854cad49fb92730d" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/invest/archive/" class="">投资归档</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/archive/money-credit-debt/" class="">货币、信贷和债务是如何运作的</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-53192c82093ead6cefaf0cca821ea5e2" class="toggle"  />
+    <label for="section-53192c82093ead6cefaf0cca821ea5e2" class="flex justify-between">
+      <a role="button" class="">投资常识</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/general/about-fund/" class="">关于基金</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/general/about-invest/" class="">关于投资</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/general/basic-concpetion/" class="">基本概念</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-eccc9e0520e1603d1cc8d1f049ca82ed" class="toggle"  />
+    <label for="section-eccc9e0520e1603d1cc8d1f049ca82ed" class="flex justify-between">
+      <a role="button" class="">期权投资</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-46d8743661e81a997a71b1519bb86232" class="toggle"  />
+    <label for="section-46d8743661e81a997a71b1519bb86232" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/invest/options/basic/" class="">基本</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/options/basic/options/" class="">期权</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f9999c6cfe366ca5b272bdb2272f00b8" class="toggle"  />
+    <label for="section-f9999c6cfe366ca5b272bdb2272f00b8" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/invest/options/case/" class="">案例</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a5f68eb7684d76a54395e2e9f10a240b" class="toggle"  />
+    <label for="section-a5f68eb7684d76a54395e2e9f10a240b" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/invest/options/strategy/" class="">策略</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f678a2450f97df6e4f52f2c00b4fdf1d" class="toggle"  />
+    <label for="section-f678a2450f97df6e4f52f2c00b4fdf1d" class="flex justify-between">
+      <a role="button" class="">期货投资</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5cef67c132fabec175a4f33caccd7ab9" class="toggle"  />
+    <label for="section-5cef67c132fabec175a4f33caccd7ab9" class="flex justify-between">
+      <a role="button" class="">期权投资</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/" class="">实践项目</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9d4732713b1cf7e69b566ece464328b4" class="toggle"  />
+    <label for="section-9d4732713b1cf7e69b566ece464328b4" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/project/shiti/" class="">实体项目</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/shiti/xiao-qu-hui-yuan-fei/" class="">小区会员费</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/shiti/mi-da-yin-yue/" class="">咪哒音乐</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/shiti/kuaican/" class="">快餐</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5389e47fc062129a1398245067264c7a" class="toggle"  />
+    <label for="section-5389e47fc062129a1398245067264c7a" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/project/wuliu/" class="">平台项目</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/wuliu/jitu/" class="">JiTu</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cefdb8483a604a6135f9c177773046a0" class="toggle"  />
+    <label for="section-cefdb8483a604a6135f9c177773046a0" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/project/ecommerce/" class="">电商项目</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/ecommerce/shopee-instruction/" class="">Shopee 基本概念</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/" class="">新兴项目</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d00eaba9e160511a4334dcd394036e1d" class="toggle"  />
+    <label for="section-d00eaba9e160511a4334dcd394036e1d" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/" class="">区块链</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/chainlink/" class="">Chainlink</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/create-nfts/" class="">Create NFTs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/erc/" class="">ERC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ethereum/" class="">ETH</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/nft/" class="">NFT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/filecoin/" class="">Filecoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ipfs-and-filecoin/" class="">IPFS and Filecoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ipfs/" class="">IPFS</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-38a93cfdef4d7fba885666f1e9db4df0" class="toggle"  />
+    <label for="section-38a93cfdef4d7fba885666f1e9db4df0" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/emerging/inbox/" class="">项目夹</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/inbox/domain-register/" class="">域名注册</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88f77290887e611edd7079bd2c7c1188" class="toggle" checked />
+    <label for="section-88f77290887e611edd7079bd2c7c1188" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/electricity/" class="">电力行业</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/xin-ceng-yuan-chu-neng/" class=" active">新能源储能电站</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/copmare-products/" class="">产品对比</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/power-quality-monitoring/" class="">电能质量监测</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/settlement-measurement/" class="">结算计量装置</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/xing-bo-ce-ju/" class="">行波测距</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/edge-gateway/" class="">边缘网关</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/zh/posts/" >
+        Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/daotoyi/FIRE" target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://daotoyi.cn/" target="_blank" rel="noopener">
+        Home
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://fire.daotoyi.cn/" target="_blank" rel="noopener">
+        Home FIRE
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://blog.daotoyi.cn/" target="_blank" rel="noopener">
+        Home Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://knowledge.daotoyi.cn/" target="_blank" rel="noopener">
+        Home Know
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>新能源储能电站</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#新能源储能电站">新能源储能电站</a>
+      <ul>
+        <li><a href="#主要储能类型及特点">主要储能类型及特点</a></li>
+        <li><a href="#主要储能类型">主要储能类型</a>
+          <ul>
+            <li><a href="#抽水蓄能电站">抽水蓄能电站</a></li>
+            <li><a href="#压缩空气储能">压缩空气储能</a></li>
+            <li><a href="#飞轮储能">飞轮储能</a></li>
+            <li><a href="#锂电池储能">锂电池储能</a></li>
+            <li><a href="#氢储能">氢储能</a></li>
+          </ul>
+        </li>
+        <li><a href="#电化学储能电站协调控制器">电化学储能电站协调控制器</a>
+          <ul>
+            <li><a href="#基本概念及产品">基本概念及产品</a></li>
+            <li><a href="#一次调频功能">一次调频功能</a></li>
+            <li><a href="#对外接口">对外接口</a></li>
+          </ul>
+        </li>
+        <li><a href="#储能站相关的产品">储能站相关的产品</a>
+          <ul>
+            <li><a href="#电化学储能有功控制-储能-agc">电化学储能有功控制（储能 AGC）</a></li>
+            <li><a href="#蓄电池管理-bms">蓄电池管理 （BMS）</a></li>
+            <li><a href="#储能电站监控系统">储能电站监控系统</a></li>
+            <li><a href="#储能协调控制系统--pms">储能协调控制系统 (PMS)</a></li>
+            <li><a href="#储能变流器-pcs">储能变流器 （PCS）</a></li>
+            <li><a href="#一次调频">一次调频</a></li>
+          </ul>
+        </li>
+        <li><a href="#总结">总结</a>
+          <ul>
+            <li><a href="#储能相关">储能相关</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="新能源储能电站">新能源储能电站</h1>
+<h2 id="主要储能类型及特点">主要储能类型及特点</h2>
+<p>储能系统按照能量存储方式的不同可以分为机械储能、电化学储能、电磁储能、热储能、
+化学燃料储能等类型。其中</p>
+<ul>
+<li>机械储能包括抽水蓄能、压缩空气和飞轮储能；</li>
+<li>电化学储能包括锂离 子、钠硫、液流、铅酸电池储能等；</li>
+<li>电磁储能包括超导、超级电容和高能密度电容储能；</li>
+<li>热储能 包括热水罐、熔岩储能、相变储能等；</li>
+<li>化学燃料储能中最具应用前景的是氢储能。</li>
+</ul>
+<p>目前适用于电网的储能主要为前两种储能，即 <strong>机械储能</strong> 和 <strong>电化学储能</strong> ，另外随着制氢、储 氢工艺的成熟， <strong>氢储能</strong> 也有望在电力系统中实现大规模应用。</p>
+<h2 id="主要储能类型">主要储能类型</h2>
+<h3 id="抽水蓄能电站">抽水蓄能电站</h3>
+<p>利用电力负荷低谷时的电能抽水至上水库，在电力负荷高峰期再放水至下水库发电的水电站。它可将电网负荷低谷时的多余电能，转变为电网高峰时期的高价值电能。</p>
+<h3 id="压缩空气储能">压缩空气储能</h3>
+<p>压缩空气技术分为先进绝热压缩空气储能和液化压缩空气储能两类。</p>
+<ul>
+<li>先进绝热压缩空气储能在电网负荷低谷期将电能用于压缩空气，将空气高压密封在储气设施（报废矿井、沉降的海底储气罐、山洞、过期油气井或新建储气井）中； 电网负荷高峰期释放压缩的空气推动透平机发电。</li>
+<li>液化压缩空气储能利用可再生能源电能或电网负荷低谷期电能用于压缩空气，高压空气经蓄冷器预冷后节流液化，将电能以常压低温液态空气形式储存，同时存储压缩热；在电网负荷高峰期，液态空气经低温泵增压后，通过蓄冷器储存冷量并气化，经压缩热加热后，产生高压高温气体驱动空气透平机发电。</li>
+</ul>
+<h3 id="飞轮储能">飞轮储能</h3>
+<p>原理是电能与旋转物体机械能相互转化。储能阶段，通过电动机拖动飞轮，使飞轮加速到一定的转速，将电能转化为机械能；在能量释放阶段，电动机作发电机运行，使飞轮减速，将机械能转化为电能。</p>
+<h3 id="锂电池储能">锂电池储能</h3>
+<p>锂离子电池分为磷酸铁锂、三元锂、钛酸锂等几种。锂离子充放电的过程， 就是锂离子在正负极间不断嵌入和脱嵌的过程。</p>
+<h3 id="氢储能">氢储能</h3>
+<p>氢能以其高能量密度、无污染的特点成为未来能源的重要发展方向。弃风弃电可以制氢，目前电氢电（电力转化为氢气，氢气再转化为电力）储能成本 高效率低，不如电池直接储电。但是在移动动力装置方面氢能有很大优势， 弃风弃光弃水制氢后供给各种燃料电池，为汽车和船舶等移动装置提供动力源。但储氢和运氢目前还存在较大技术难题。用氢领域，燃 料电池造价高昂且寿命短，仍然需要时间进行进一步的技术优化</p>
+<h2 id="电化学储能电站协调控制器">电化学储能电站协调控制器</h2>
+<h3 id="基本概念及产品">基本概念及产品</h3>
+<h4 id="电化学储能电站">电化学储能电站</h4>
+<p>通过电化学介质进行可循环电能存储、转换及释放的电站。</p>
+<h4 id="协调控制器-ccu">协调控制器 CCU</h4>
+<p>具备监测并网点的电压、频率和功率，可接收调度和电化学储能电站监控系统的调控指令，控制多 台储能变流器，实现整站一次调频、动态无功调压等控制功能的装置。</p>
+<h4 id="储能变流器-pcs">储能变流器 PCS</h4>
+<p>连接电池系统与电网(和/或负荷)，实现功率双向变换的装置.</p>
+<h3 id="一次调频功能">一次调频功能</h3>
+<p>主要功能：</p>
+<ul>
+<li>能实时监测并网点电压，当电压变化超出调压死区范围时，主动实施动态无功调压功能。</li>
+<li>在储能电站并网点允许的电压范围内实施调压。</li>
+<li>动态无功调压应在各 PCS 允许输出的能力范围内合理分配无功功率。</li>
+</ul>
+<h3 id="对外接口">对外接口</h3>
+<h4 id="通讯">通讯</h4>
+<ul>
+<li>与调度及电化学储能电站监控系统的通信，应采用 <strong>以太网口</strong> 或 <strong>S485</strong> 通信接口；</li>
+<li>与 PCS 或其他重要设备的通信，宜采用 <strong>以太网</strong> 或 <strong>光纤</strong> 接口；</li>
+<li>装置应具有 <strong>开关量输入和输出</strong> 接口。</li>
+</ul>
+<h4 id="对时">对时</h4>
+<p>需要，接口未明确</p>
+<h4 id="显示">显示</h4>
+<p>就地显示</p>
+<h4 id="模拟量">模拟量</h4>
+<p>需要，规格未明确</p>
+<h2 id="储能站相关的产品">储能站相关的产品</h2>
+<h3 id="电化学储能有功控制-储能-agc">电化学储能有功控制（储能 AGC）</h3>
+<h3 id="蓄电池管理-bms">蓄电池管理 （BMS）</h3>
+<p>监视蓄电池的状态（温度、电压、荷电状态等），可以为蓄电池提供通信、安全、电芯均衡及管理控制，并提供与应用设备通信接口的系统。</p>
+<h3 id="储能电站监控系统">储能电站监控系统</h3>
+<h3 id="储能协调控制系统--pms">储能协调控制系统 (PMS)</h3>
+<p>电化学储能系统中，用于对多个 PCS 实现快速协调控制的控制管理系统。</p>
+<h3 id="储能变流器-pcs">储能变流器 （PCS）</h3>
+<p>电化学储能系统中，连接于电池系统与电网之间的实现电能双向转换的变流器。</p>
+<h3 id="一次调频">一次调频</h3>
+<p>是指电网的频率一旦偏离额定值时，电网中机组的控制系统就自动地控制机组有功功率的增减，限制电网频率变化，使电网频率维持稳定的自动控制过程</p>
+<h2 id="总结">总结</h2>
+<p>根据前端市场客户反馈，目前行业响应国家和国网规范，积极开展新能源及储能业务。针对目前客户端提供的相关资料，学习整理与我们所做产品有相关性的信息。</p>
+<h3 id="储能相关">储能相关</h3>
+<p>资料涉及的产品与我们相关的主要有，子站服务器，工作站，交换机，AGC 控制器，CCU 协调控制器。其中提供了站内部分产品的规格。</p>
+<table>
+<thead>
+<tr>
+<th>设备名称</th>
+<th>规格</th>
+<th>配置数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>子站服务器</td>
+<td>CPU 主频≥2GHz,内存≥8G,千兆网卡≥4 口,硬盘存储≥500G</td>
+<td>2 台</td>
+</tr>
+<tr>
+<td>工作站</td>
+<td>CPU 主频≥2GHz 内存≥8G 千兆网卡≥2 口 硬盘存储≥500G</td>
+<td>2 台</td>
+</tr>
+<tr>
+<td>MMS 层交换机</td>
+<td>端口速度≥100M 端口数量≥24 预留光纤接口数≥4 具备端口绑定功能</td>
+<td>2 台</td>
+</tr>
+<tr>
+<td>GOOSE 层交换机</td>
+<td>端口速度≥1000M 端口数量≥24 预留光纤接口数≥24 具备端口绑定功能</td>
+<td>2 台</td>
+</tr>
+</tbody>
+</table>
+<p>从规格上看子站服务服务和工作站可以考虑用我们正在开发的产器方案。交换机和 AGC 有现成的硬件或者可以提供方案。</p>
+<p>PCS 协调控制器（CCU）与我们录波器产品相关，需要监测并网点的电压、频率和功率等模拟量。从与客户端了解的规格，目前有两种方案：</p>
+<ul>
+<li>在管理机或者工控机上直接采集电压电流模拟量，目前各集成商的主要方式，据说是基于测控装置的方案。</li>
+<li>只保留通讯管理的相关功能，前端的电压电流模拟量采集使用用单独的仪表类的方案，这是中小厂家的方案。</li>
+</ul>
+<p>针对需要模拟量的 CCU，考虑市场端有直接接入模拟量采集的相关装置（如常规相量数据采集单元，电能质量监测装置，结算计量装置等），可以进一步考虑基于现有录波器方案，开发一块直采电压电压的模拟量板卡，尝试新的产品业务。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/daotoyi/FIRE/blob/main/commit/f0c30ed8d1bbdaad49b5e9b816cd436cee6b9525" title='最后修改者 daotoyi | July 1, 2022' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>July 1, 2022</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/daotoyi/FIRE/blob/main///content.zh/docs/electricity/xin-ceng-yuan-chu-neng.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>编辑本页</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#新能源储能电站">新能源储能电站</a>
+      <ul>
+        <li><a href="#主要储能类型及特点">主要储能类型及特点</a></li>
+        <li><a href="#主要储能类型">主要储能类型</a>
+          <ul>
+            <li><a href="#抽水蓄能电站">抽水蓄能电站</a></li>
+            <li><a href="#压缩空气储能">压缩空气储能</a></li>
+            <li><a href="#飞轮储能">飞轮储能</a></li>
+            <li><a href="#锂电池储能">锂电池储能</a></li>
+            <li><a href="#氢储能">氢储能</a></li>
+          </ul>
+        </li>
+        <li><a href="#电化学储能电站协调控制器">电化学储能电站协调控制器</a>
+          <ul>
+            <li><a href="#基本概念及产品">基本概念及产品</a></li>
+            <li><a href="#一次调频功能">一次调频功能</a></li>
+            <li><a href="#对外接口">对外接口</a></li>
+          </ul>
+        </li>
+        <li><a href="#储能站相关的产品">储能站相关的产品</a>
+          <ul>
+            <li><a href="#电化学储能有功控制-储能-agc">电化学储能有功控制（储能 AGC）</a></li>
+            <li><a href="#蓄电池管理-bms">蓄电池管理 （BMS）</a></li>
+            <li><a href="#储能电站监控系统">储能电站监控系统</a></li>
+            <li><a href="#储能协调控制系统--pms">储能协调控制系统 (PMS)</a></li>
+            <li><a href="#储能变流器-pcs">储能变流器 （PCS）</a></li>
+            <li><a href="#一次调频">一次调频</a></li>
+          </ul>
+        </li>
+        <li><a href="#总结">总结</a>
+          <ul>
+            <li><a href="#储能相关">储能相关</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

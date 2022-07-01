@@ -9,5 +9,15 @@
 	<atom:link href="https://fire.daotoyi.cn/docs/project/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>https://fire.daotoyi.cn/docs/project/hidden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/docs/project/hidden/</guid>
+      <description>This page is hidden in menu Example --- bookHidden: true --- File meta control page to show or not.
+ true: show false: not show  </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="南方电网云边融合智能调度运行平台">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="边缘网关" />
+<meta property="og:description" content="南方电网云边融合智能调度运行平台" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fire.daotoyi.cn/zh/docs/electricity/edge-gateway/" />
+<meta property="article:published_time" content="2022-03-13T11:40:47+08:00" />
+<meta property="article:modified_time" content="2022-07-01T23:44:44+08:00" />
+<title>边缘网关 | FIRE</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.1bf96331d413d04f4d775c9997379c9c2f884482a30d1ad45208b7ef6f61a3d6.css" integrity="sha256-G/ljMdQT0E9Nd1yZlzecnC&#43;IRIKjDRrUUgi3729ho9Y=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/zh.search.min.813274da96d5b35c08bf427949aa78b442936369ed7247178dc70499905c13ac.js" integrity="sha256-gTJ02pbVs1wIv0J5Sap4tEKTY2ntckcXjccEmZBcE6w=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js" integrity="sha256-dKi7B/C&#43;6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/zh/"><img src="/logo.png" alt="Logo" /><span>FIRE</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://fire.daotoyi.cn/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/" class="">投资项目</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ee4f65c7f23c4b3b854cad49fb92730d" class="toggle"  />
+    <label for="section-ee4f65c7f23c4b3b854cad49fb92730d" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/invest/archive/" class="">投资归档</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/archive/money-credit-debt/" class="">货币、信贷和债务是如何运作的</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-53192c82093ead6cefaf0cca821ea5e2" class="toggle"  />
+    <label for="section-53192c82093ead6cefaf0cca821ea5e2" class="flex justify-between">
+      <a role="button" class="">投资常识</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/general/about-fund/" class="">关于基金</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/general/about-invest/" class="">关于投资</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/general/basic-concpetion/" class="">基本概念</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-eccc9e0520e1603d1cc8d1f049ca82ed" class="toggle"  />
+    <label for="section-eccc9e0520e1603d1cc8d1f049ca82ed" class="flex justify-between">
+      <a role="button" class="">期权投资</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-46d8743661e81a997a71b1519bb86232" class="toggle"  />
+    <label for="section-46d8743661e81a997a71b1519bb86232" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/invest/options/basic/" class="">基本</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/invest/options/basic/options/" class="">期权</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f9999c6cfe366ca5b272bdb2272f00b8" class="toggle"  />
+    <label for="section-f9999c6cfe366ca5b272bdb2272f00b8" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/invest/options/case/" class="">案例</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a5f68eb7684d76a54395e2e9f10a240b" class="toggle"  />
+    <label for="section-a5f68eb7684d76a54395e2e9f10a240b" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/invest/options/strategy/" class="">策略</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f678a2450f97df6e4f52f2c00b4fdf1d" class="toggle"  />
+    <label for="section-f678a2450f97df6e4f52f2c00b4fdf1d" class="flex justify-between">
+      <a role="button" class="">期货投资</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5cef67c132fabec175a4f33caccd7ab9" class="toggle"  />
+    <label for="section-5cef67c132fabec175a4f33caccd7ab9" class="flex justify-between">
+      <a role="button" class="">期权投资</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/" class="">实践项目</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9d4732713b1cf7e69b566ece464328b4" class="toggle"  />
+    <label for="section-9d4732713b1cf7e69b566ece464328b4" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/project/shiti/" class="">实体项目</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/shiti/xiao-qu-hui-yuan-fei/" class="">小区会员费</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/shiti/mi-da-yin-yue/" class="">咪哒音乐</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/shiti/kuaican/" class="">快餐</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5389e47fc062129a1398245067264c7a" class="toggle"  />
+    <label for="section-5389e47fc062129a1398245067264c7a" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/project/wuliu/" class="">平台项目</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/wuliu/jitu/" class="">JiTu</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cefdb8483a604a6135f9c177773046a0" class="toggle"  />
+    <label for="section-cefdb8483a604a6135f9c177773046a0" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/project/ecommerce/" class="">电商项目</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/project/ecommerce/shopee-instruction/" class="">Shopee 基本概念</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/" class="">新兴项目</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d00eaba9e160511a4334dcd394036e1d" class="toggle"  />
+    <label for="section-d00eaba9e160511a4334dcd394036e1d" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/" class="">区块链</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/chainlink/" class="">Chainlink</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/create-nfts/" class="">Create NFTs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/erc/" class="">ERC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ethereum/" class="">ETH</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/nft/" class="">NFT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/filecoin/" class="">Filecoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ipfs-and-filecoin/" class="">IPFS and Filecoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/blockchain/ipfs/" class="">IPFS</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-38a93cfdef4d7fba885666f1e9db4df0" class="toggle"  />
+    <label for="section-38a93cfdef4d7fba885666f1e9db4df0" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/emerging/inbox/" class="">项目夹</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/emerging/inbox/domain-register/" class="">域名注册</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88f77290887e611edd7079bd2c7c1188" class="toggle" checked />
+    <label for="section-88f77290887e611edd7079bd2c7c1188" class="flex justify-between">
+      <a href="https://fire.daotoyi.cn/zh/docs/electricity/" class="">电力行业</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/xin-ceng-yuan-chu-neng/" class="">新能源储能电站</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/copmare-products/" class="">产品对比</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/power-quality-monitoring/" class="">电能质量监测</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/settlement-measurement/" class="">结算计量装置</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/xing-bo-ce-ju/" class="">行波测距</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://fire.daotoyi.cn/zh/docs/electricity/edge-gateway/" class=" active">边缘网关</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/zh/posts/" >
+        Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/daotoyi/FIRE" target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://daotoyi.cn/" target="_blank" rel="noopener">
+        Home
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://fire.daotoyi.cn/" target="_blank" rel="noopener">
+        Home FIRE
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://blog.daotoyi.cn/" target="_blank" rel="noopener">
+        Home Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://knowledge.daotoyi.cn/" target="_blank" rel="noopener">
+        Home Know
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>边缘网关</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#边缘网关-edge-gateway">边缘网关  edge gateway</a></li>
+        <li><a href="#接口要求">接口要求</a>
+          <ul>
+            <li><a href="#远传-2-3-4g-5g">远传 2/3/4G 5G</a></li>
+            <li><a href="#lna-2--100-1000mbit-s">LNA 2(100/1000Mbit/s)</a></li>
+            <li><a href="#console">console</a></li>
+            <li><a href="#hplc">HPLC</a></li>
+            <li><a href="#uart--4rs485-2rs232">UART(4RS485,2RS232)</a></li>
+            <li><a href="#ad--3u3i">AD(3U3I)</a></li>
+            <li><a href="#无线接入">无线接入</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h2 id="边缘网关-edge-gateway">边缘网关  edge gateway</h2>
+<p>一种网关设备，部署在变电站、配电站所/台区/杆塔、分布式新能源等新兴市场主体的并网点等位置，负责采集本地电网运行数据，上送边缘集群，并实现电网运行方式切换、调频/调峰等指令操作，具备边缘计算和云边协同应用功能，支撑调度运行和市场运营。</p>
+<p>边缘网关根据应用场景和功能性能差异分为 I 型边缘网关、II 型边缘网关和 III 型边缘网关。</p>
+<ul>
+<li>I 型边缘网关指部署在变电站的智能远动机。</li>
+<li>II 型边缘网关具备交直流模拟量测量及开关量输入输出功能，应用于配电站所/台区/杆塔、分布式新能源、储能、电动汽车充电设施等场合。</li>
+<li>III 型边缘网关从接入对象的监控系统（本地/平台）采集数据，应用于综合能源园区、虚拟电厂等场合。</li>
+</ul>
+<h2 id="接口要求">接口要求</h2>
+<p>接口应满足以下要求：</p>
+<h3 id="远传-2-3-4g-5g">远传 2/3/4G 5G</h3>
+<ul>
+<li>有无线远传需求的边缘网关，应具备 1 路无线公网/专网远程通信接口，应支持 2/3/4G，宜支持 5G。</li>
+</ul>
+<h3 id="lna-2--100-1000mbit-s">LNA 2(100/1000Mbit/s)</h3>
+<ul>
+<li>应具备至少 2 路以太网接口，传输速率选用 100/1000Mbit/s 全双工。</li>
+</ul>
+<h3 id="console">console</h3>
+<ul>
+<li>应至少具备 1 路本地维护接口，可支持 UART、ETH，其中 UART 支持速率 38400bps 或以上，通过本地维护接口可设置网关参数，进行软件升级等。</li>
+</ul>
+<h3 id="hplc">HPLC</h3>
+<ul>
+<li>可连接 HPLC 模块、微功率模块或双模模块。</li>
+</ul>
+<h3 id="uart--4rs485-2rs232">UART(4RS485,2RS232)</h3>
+<ul>
+<li>应具备至少 4 路 RS-485，2 路 RS-232/RS-485 可切换串口，串口速率可选用 1200 bps、2400 bps、4800 bps、9600 bps、19200 bps、38400bps 等。</li>
+</ul>
+<h3 id="ad--3u3i">AD(3U3I)</h3>
+<ul>
+<li>II 型边缘网关应具备至少 3 路交流电压输入接口，输入额定值为 220V/320V，或 57.7V/100V，输入范围（0-2）Un。</li>
+<li>II 型边缘网关应具备至少 3 路交流电流输入接口，输入额定值 1.5A，输入电流范围（0-4）In，能承受 6 倍额定电流过载。</li>
+</ul>
+<h3 id="无线接入">无线接入</h3>
+<ul>
+<li>应用于无线物联网接入场景的边缘网关装置需具备无线通信接口，可采用蓝牙、Zigbee、WiFi、LoRa/LoRaWAN、RF 等协议接口。</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/daotoyi/FIRE/blob/main/commit/f0c30ed8d1bbdaad49b5e9b816cd436cee6b9525" title='最后修改者 daotoyi | July 1, 2022' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>July 1, 2022</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/daotoyi/FIRE/blob/main///content.zh/docs/electricity/edge-gateway.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>编辑本页</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#边缘网关-edge-gateway">边缘网关  edge gateway</a></li>
+        <li><a href="#接口要求">接口要求</a>
+          <ul>
+            <li><a href="#远传-2-3-4g-5g">远传 2/3/4G 5G</a></li>
+            <li><a href="#lna-2--100-1000mbit-s">LNA 2(100/1000Mbit/s)</a></li>
+            <li><a href="#console">console</a></li>
+            <li><a href="#hplc">HPLC</a></li>
+            <li><a href="#uart--4rs485-2rs232">UART(4RS485,2RS232)</a></li>
+            <li><a href="#ad--3u3i">AD(3U3I)</a></li>
+            <li><a href="#无线接入">无线接入</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
