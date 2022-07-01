@@ -2,11 +2,15 @@
 title: Introduction
 type: docs
 ---
-{{< button relref="/" >}}Home{{< /button >}}
+{{< button relref="/" >}}FIRE{{< /button >}}
 
 {{< button href="http://www.daotoyi.cn" >}}Daotoyi{{< /button >}}
 
-{{< button href="http://jekyll.daotoyi.cn" >}}Jekyll Home{{< /button >}}
+{{< button href="http://blog.daotoyi.cn" >}}Blog{{< /button >}}
+
+{{< button href="http://knowledge.daotoyi.cn" >}}Knowledge{{< /button >}}
+
+{{< button href="http://jekyll.daotoyi.cn" >}}Jekyll{{< /button >}}
 
 # FIRE
 {{< details title="Definition" open=true >}}

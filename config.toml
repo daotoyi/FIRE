@@ -35,7 +35,7 @@ enableGitInfo = true
 [languages.zh]
   languageName = 'Chinese'
   contentDir = 'content.zh'
-  weight = 3
+  weight = 0 
 
 [menu]
 # [[menu.before]]
@@ -57,9 +57,14 @@ enableGitInfo = true
 [[menu.after]]
   # name = "Hugo Themes"
   # url = "https://themes.gohugo.io/hugo-book/"
-  name = "Home Site"
-  url = "https://site.daotoyi.cn/"
+  name = "Home Blog"
+  url = "https://blog.daotoyi.cn/"
   weight = 40
+
+[[menu.after]]
+  name = "Home Know"
+  url = "https://knowledge.daotoyi.cn/"
+  weight = 50
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
