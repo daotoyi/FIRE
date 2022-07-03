@@ -1,7 +1,9 @@
 ---
 title: "Shopee 基本概念"
-lastmod: "2022-05-12 18:15:21"
-categories: ["Shopee"]
+description: "shopee instruction"
+date: "2022-07-01 13:14:00"
+lastmod: "2022-07-02 13:14:44"
+categories: ["Ecommerce"]
 draft: false
 ---
 

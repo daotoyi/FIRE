@@ -1,10 +1,11 @@
-+++
-title = "Filecoin"
-description = "去中心化储存平台"
-date = 2022-03-12T12:05:00+08:00
-lastmod = 2022-03-12T13:07:58+08:00
-draft = false
-+++
+---
+title: "Filecoin"
+description: "去中心化储存平台"
+date: "2022-03-12 12:05:00"
+lastmod: "2022-07-02 09:39:22"
+categories: ["Blockchain"]
+draft: false
+---
 
 ## Filecoin {#filecoin}
 
@@ -37,7 +38,7 @@ Filecoin 一共有两个市场:
 -   存储市场
 -   检索市场
 
-**只有存储矿工才有系统的奖励，才真正属于IPFS的挖矿(系统的奖励).**
+**只有存储矿工才有系统的奖励，才真正属于 IPFS 的挖矿(系统的奖励).**
 
 
 ## 挖矿 {#挖矿}

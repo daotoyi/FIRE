@@ -1,6 +1,6 @@
 ---
 bookCollapseSection: true
-title: "区块链"
+bookFlatSection: true
 ---
 
 {{< section >}}

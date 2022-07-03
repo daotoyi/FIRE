@@ -1,10 +1,11 @@
-+++
-title = "域名注册"
-date = 2022-03-12T16:00:00+08:00
-lastmod = 2022-03-14T15:51:45+08:00
-categories = ["Opportunity"]
-draft = false
-+++
+---
+title: "域名注册"
+date: "2022-03-12 16:00:00"
+lastmod: "2022-07-02 09:43:36"
+categories: ["Opportunity"]
+draft: false
+toc: true
+---
 
 域名是需要每年续费的，不续费就会过期，过期之后就会被删除，也就回到了“未注册”的状态，这个时候，任何人都可以重新注册这个域名了。
 

@@ -2,7 +2,6 @@
 title = "如何判断一个创业项目是否靠谱"
 date = 2022-04-07T22:40:00+08:00
 lastmod = 2022-04-07T22:40:54+08:00
-categories = ["View"]
 draft = false
 +++
 

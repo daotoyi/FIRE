@@ -1,10 +1,15 @@
 ---
 weight: 2
 bookFlatSection: true
-bookCollapseSection: true
-title: "Project"
+title: "实践项目"
 ---
 
-# Project
+# 实践项目
 
-{{< section >}}
+## 网络项目
+
+## 电商项目
+
+## 平台项目
+
+## 实体项目

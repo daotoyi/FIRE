@@ -1,24 +1,24 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Invest"
+title: "投资项目"
 ---
 
-# Instruction
+# 简介
 
-- Record learning notes.
-- Comb system knowledge.
+- 记录学习笔记
+- 系统梳理知识
 
-# Options
+# 期权
 
-An option is a contract that allows the holder the right to buy or sell an underlying asset or financial instrument at a specified strike price on or before a specified date, depending on the form of the option. 
+期权是一种合约，允许持有人有权在指定日期或之前以指定的执行价格购买或出售标的资产或金融工具，具体取决于期权的形式。
 
-# Futures
+# 期货
 
-A futures contract (sometimes called futures) is a standardized legal agreement to buy or sell something at a predetermined price at a specified time in the future, between parties not known to each other. 
+期货合约（有时称为期货）是一种标准化的法律协议，用于在彼此不知道的各方之间在未来特定时间以预定价格买卖某物。
 
-# Stocks
+# 股票
 
-Stock (also capital stock) consists of all of the shares into which ownership of a corporation or company is divided.
+股票（也是股本）由公司或公司所有权划分的所有股份组成。
 
 # FIRE

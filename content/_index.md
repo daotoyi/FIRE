@@ -1,119 +1,118 @@
 ---
-title: Introduction
+title: 简介
 type: docs
 ---
 {{< button relref="/" >}}FIRE{{< /button >}}
 
-{{< button href="http://www.daotoyi.cn" >}}Daotoyi{{< /button >}}
+{{< button href="http://www.daotoyi.cn" >}}道一站{{< /button >}}
 
-{{< button href="http://blog.daotoyi.cn" >}}Blog{{< /button >}}
+{{< button href="http://blog.daotoyi.cn" >}}技术博客{{< /button >}}
 
-{{< button href="http://knowledge.daotoyi.cn" >}}Knowledge{{< /button >}}
+{{< button href="http://knowledge.daotoyi.cn" >}}知识库{{< /button >}}
 
 {{< button href="http://jekyll.daotoyi.cn" >}}Jekyll{{< /button >}}
 
 # FIRE
-{{< details title="Definition" open=true >}}
-The **FIRE (Financial Independence, Retire Early) movement** is a lifestyle movement with the goal of gaining financial independence and retiring early. 
+{{< details title="定义" open=true >}}
+**FIRE (Financial Independence, Retire Early)** 是一种以获得经济独立和提前退休为目标的生活方式运动。
 {{< /details>}}
 
-## Invest
+## 投资项目
 
 {{< columns >}}
 
-## Options
-An option is a contract that allows the holder the right to buy or sell an underlying asset or financial instrument at a specified strike price on or before a specified date, depending on the form of the option. 
+## 期权
+
+期权是一种合约，允许持有者在特定日期或之前，根据期权的形式，以特定执行价格购买或出售标的资产或金融工具。
 
 <--->
 
-## Futures
+## 期货
 
-A futures contract (sometimes called futures) is a standardized legal agreement to buy or sell something at a predetermined price at a specified time in the future, between parties not known to each other. 
+期货合约(有时称为期货)是一种标准化的法律协议，在未来的特定时间，在相互不认识的各方之间以预定的价格买卖某物。
 
 <--->
 
-## Stocks
+## 股票
 
-Stock (also capital stock) consists of all of the shares into which ownership of a corporation or company is divided.
+股票(也称股本)包括一个公司或公司的所有权被分割成的所有股份。
 
 {{< /columns >}}
 
-## Project
+## 实践项目
 
 {{< columns >}}
 
-## Fixed assets
+## 不动产
 
 Estate
 
 <--->
 
-## Business project
+## 商业项目
 
-Start business
+创业项目
 
-E-commercial
+电商项目
 
 {{< /columns >}}
 
-## Electricity
+## 电力行业
 
 {{< details "Power" "..." >}}
-    Techyauld
+    TThe state grid
 {{< /details >}}
 
-### Substation
+### 变电站
 
-### Distribution
+### 配电所
 
 ### IOT 
 
 {{< hint info >}}
-**Instruction**  
-The Internet of things (IoT) describes physical objects (or groups of such objects) that are embedded with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks.
+**简介** 
+
+物联网 (IoT) 描述了嵌入传感器、处理能力、软件和其他技术的物理对象（或此类对象组），这些技术通过 Internet 或其他通信网络与其他设备和系统连接并交换数据。
 {{< /hint >}}
 
-## Emerging transaction
+## 新兴项目
 
 {{< columns >}}
 
-## Blockchain
+## 区块链
 
-BTC, ETH
+比特币（BTC）, 以太坊（ETH）
 
-NFT
+非同质化代币（NFT）
 
 IPFS, Filecoin
 <--->
 
-## Metaverse
+## 元宇宙
 
 Opensea
 
 {{< /columns >}}
 
-### Digital Currency 
+### 数字币 
 
 {{< tabs "uniqueid" >}}
     {{< tab "BTC" >}}
-        Bitcoin (₿) is a decentralized digital currency, 
-        without a central bank or single administrator,
-        that can be sent from user to user on the peer-to-peer bitcoin network
-        without the need for intermediaries.
+        比特币(₿)是一种去中心化数字货币，
+        没有中央银行或单一管理者，
+        它可以在点对点比特币网络上从一个用户发送到另一个用户不需要中介。
     {{< /tab >}}
     {{< tab "ETH" >}}
-        Ethereum is a decentralized,
-        open-source blockchain with smart contract functionality. 
-        Ether (ETH or Ξ) is the native cryptocurrency of the platform.
+        这是一个分散的，
+        带智能合约功能的开源区块链。
+        以太币(ETH或Ξ)是该平台的原生加密货币。
     {{< /tab >}}
     {{< tab "NFT" >}} 
-        A non-fungible token (NFT) is
-        a non-interchangeable unit of data
-        stored on a blockchain, 
-        a form of digital ledger, 
-        that can be sold and traded.
+        非同质化代币(NFT)是
+        一种不可交换的数据单位，存储在区块链中，
+        一种数字账本的形式，可以出售和交易。
     {{< /tab >}}
 {{< /tabs >}}
 
-## Blog
+## 博客
 
