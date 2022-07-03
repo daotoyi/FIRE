@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网络项目 on FIRE</title>
+    <link>https://fire.daotoyi.cn/zh/docs/project/internet/</link>
+    <description>Recent content in 网络项目 on FIRE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://fire.daotoyi.cn/zh/docs/project/internet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SEO/SEM</title>
+      <link>https://fire.daotoyi.cn/zh/docs/project/internet/internet-seo-sem/</link>
+      <pubDate>Sat, 02 Jul 2022 03:46:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/docs/project/internet/internet-seo-sem/</guid>
+      <description>SEO Search Engine Optimization。“搜索引擎优化”
+SEO 是指在了解搜索引擎自然排名机制的基础上，对网站进行内部及外部的调整优化，改进网站在搜索引擎中的关键词自然排名，从而获得更多流量，最终达成品牌建设或者产品销售的目的。
+说明  白帽 SEO 主要包括了代码，文字内容的优化以及站外的文明 seo 黑帽 SEO 而更多的是黑科技站群之流 灰帽就是谷歌的边缘地带  老域名 稳定的服务器 长尾关键词优化 指网站上的非目标关键词但与目标关键词相关的也可以带来搜索流量的组合型关键词.
+ 特征是比较长，往往是 2-3 个词组成，甚至是短语，存在于内容页面，除了内容页的标题，还存在于内容中。 搜索量非常少，并且不稳定。  高质量的内容 优质的外部链接 “内容为王，外链为皇”
+SEM Search Engine Marketing. 搜索引擎营销.
+Sem 不仅仅是关键词营销,，还有很多方式，比如信息流广告，联盟广告等等。
+需要在搜索引擎网站开户，并收取预付费，然后将需要投放的关键词广告列成一列，在用户搜索相关关键词时显示给用户，从而提高网站的流量。
+最直接的方法是关键词竞价排名，即，通过付费的方式将你的关键词直接排在前面.
+优点  快速显示 精确显示 短时间内就可以吸引大量的潜在客户  SEO/SEM     SEO SEM Notes     成本投入 维护成本低 投入成本逐年增加 SEM 竞价排名   见效速度 见效速度慢,排名上首页要 2~3 个月 见效速度快    推广稳定性 稳定性好 如果资金充足也可很稳定    流量持久性 流量持久性强 流量持久性弱    定向准确性 无法定向.</description>
+    </item>
+    
+    <item>
+      <title>域名注册</title>
+      <link>https://fire.daotoyi.cn/zh/docs/project/internet/domain-register/</link>
+      <pubDate>Sat, 12 Mar 2022 16:00:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/docs/project/internet/domain-register/</guid>
+      <description>营利模式  买卖优质域名  热门域名：com cn 通用顶级域名： top、xyz、vip、icu 未发展起来的通用顶级域名： info、ne 及众多四声母域名   搭建网站  依靠网站产品 网站成名后，域名也会水涨船高    域名是需要每年续费的，不续费就会过期，过期之后就会被删除，也就回到了“未注册”的状态，这个时候，任何人都可以重新注册这个域名了。
+相关产业 ICANN 互联网名称与数字地址分配机构 它是一个非营利性的国际组织，成立于 1998 年 10 月，负责在全球范围内对互联网唯一标识符系统及其安全稳定的运营进行协调。简单点说，ICANN 负责制定什么样的域名可以在互联网世界流通。
+ICANN 制定的域名又分为两大类：
+ 通用顶级域名就是指以 “.com”、“.net”、“.org” 结尾的常用域名 国家和地区顶级域名就是指 “.cn”、“.hk”、“.uk” 这样的域名。  域名管理机构 不同的域名，又由不同的管理机构进行管理，比如:
+ . com 域名的管理机构是威瑞信（Verisign）， .cn 域名的管理机构是中国互联网络信息中心（CNNIC）。  ICANN 并不负责域名注册，ICANN 只是管理其授权的域名注册商，在 ICANN 和域名注册商之间有一个 Versign，注册商要从 Verisign 公司批发域名，但接受 ICANN 的管理。
+域名注册商 往往是一个商业实体或组织，它们由 ICANN 或者域名管理机构委派，以在指定的域名注册数据库中使用互联网域名，向公众提供此类服务。
+如注册一个域名，那么就必须通过它支付一定的手续费，最终获得需要的域名。
+全球知名的域名注册商:
+  2016 年 1 月《中国互联网络发展状况统计报告》:</description>
+    </item>
+    
+  </channel>
+</rss>

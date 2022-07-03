@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>机会 on FIRE</title>
+    <link>https://fire.daotoyi.cn/zh/categories/%E6%9C%BA%E4%BC%9A/</link>
+    <description>Recent content in 机会 on FIRE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 02 Jul 2022 09:29:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fire.daotoyi.cn/zh/categories/%E6%9C%BA%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WordPress 建站</title>
+      <link>https://fire.daotoyi.cn/zh/docs/emerging/inbox/worpress-site/</link>
+      <pubDate>Sat, 02 Jul 2022 09:29:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/docs/emerging/inbox/worpress-site/</guid>
+      <description>现在这个世界是这样的，如果你在互联网上不存在，你基本就不存在，不管是公司，产品，生意，还是你这个人。
+  大家对用 WordPress 建站怎么看？  </description>
+    </item>
+    
+  </channel>
+</rss>

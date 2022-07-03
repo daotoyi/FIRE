@@ -5,17 +5,26 @@
     <link>https://fire.daotoyi.cn/zh/categories/</link>
     <description>Recent content in Categories on FIRE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 12 May 2022 18:15:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jul 2022 09:29:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fire.daotoyi.cn/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Shopee</title>
-      <link>https://fire.daotoyi.cn/zh/categories/Shopee/</link>
-      <pubDate>Thu, 12 May 2022 18:15:21 +0000</pubDate>
+      <title>机会</title>
+      <link>https://fire.daotoyi.cn/zh/categories/%E6%9C%BA%E4%BC%9A/</link>
+      <pubDate>Sat, 02 Jul 2022 09:29:00 +0000</pubDate>
       
-      <guid>https://fire.daotoyi.cn/zh/categories/Shopee/</guid>
+      <guid>https://fire.daotoyi.cn/zh/categories/%E6%9C%BA%E4%BC%9A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecommerce</title>
+      <link>https://fire.daotoyi.cn/zh/categories/Ecommerce/</link>
+      <pubDate>Sat, 02 Jul 2022 03:46:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/categories/Ecommerce/</guid>
       <description></description>
     </item>
     
@@ -38,11 +47,20 @@
     </item>
     
     <item>
-      <title>View</title>
-      <link>https://fire.daotoyi.cn/zh/categories/View/</link>
-      <pubDate>Thu, 07 Apr 2022 22:40:00 +0800</pubDate>
+      <title>Opportunity</title>
+      <link>https://fire.daotoyi.cn/zh/categories/Opportunity/</link>
+      <pubDate>Sat, 12 Mar 2022 16:00:00 +0000</pubDate>
       
-      <guid>https://fire.daotoyi.cn/zh/categories/View/</guid>
+      <guid>https://fire.daotoyi.cn/zh/categories/Opportunity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blockchain</title>
+      <link>https://fire.daotoyi.cn/zh/categories/Blockchain/</link>
+      <pubDate>Sat, 12 Mar 2022 12:05:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/categories/Blockchain/</guid>
       <description></description>
     </item>
     
@@ -52,15 +70,6 @@
       <pubDate>Sat, 12 Mar 2022 19:58:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/zh/categories/Archive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opportunity</title>
-      <link>https://fire.daotoyi.cn/zh/categories/Opportunity/</link>
-      <pubDate>Sat, 12 Mar 2022 16:00:00 +0800</pubDate>
-      
-      <guid>https://fire.daotoyi.cn/zh/categories/Opportunity/</guid>
       <description></description>
     </item>
     
