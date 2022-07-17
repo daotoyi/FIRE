@@ -1,9 +1,10 @@
-+++
-title = "基本概念"
-date = 2022-03-08T17:25:00+08:00
-lastmod = 2022-03-09T09:48:44+08:00
-draft = false
-+++
+---
+title: "基本概念"
+date: "2022-03-08 17:25:00"
+lastmod: "2022-07-17 16:43:01"
+categories: ["投资"]
+draft: false
+---
 
 -   State "DONE"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2022-02-12 周六 08:59]</span></span>
 
