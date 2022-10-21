@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>行波测距装置</title>
+      <link>https://fire.daotoyi.cn/zh/docs/electricity/xing-bo-ce-ju/</link>
+      <pubDate>Sun, 21 Aug 2022 11:57:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/docs/electricity/xing-bo-ce-ju/</guid>
+      <description>产品描述 500kV 及以上系统的交流线路、220kV 长度超过 50kM 或多单位维护的交流线路应配置集中式行波测距装置；其它 220kV 巡线困难的交流线路宜装设行波测距装置。
+对时 有对时功能，对时误差不大于 1μs。
+通信接口  装置应具备至少 4 个独立的 10M 及以上以太网接口。 应具备打印接口。 宜具备 USB 转存接口。  无源节点 当地告警信号应不少于 3 对硬接点输出，分别为装置起动、装置失电、装置故障。
+信号接入  对交流线路，行波测距装置可直接接入 CT 二次侧、PT 二次侧或在互感器接地回路经专用互感器提取行波信号； 对直流线路，行波测距装置通过测量直流耦合电容器接地引线电流的专用互感器提取行波信号。  采集频率 装置采样频率不小于 1MHz.</description>
+    </item>
+    
+    <item>
       <title>新能源储能电站</title>
       <link>https://fire.daotoyi.cn/zh/docs/electricity/xin-ceng-yuan-chu-neng/</link>
       <pubDate>Sun, 17 Apr 2022 21:54:20 +0800</pubDate>
@@ -66,18 +78,6 @@
 按键 按键操作响应时间不大于 1s，无卡死或接触不良现象，各部件应紧固.
 输出接口  电能量脉冲输出、功能测试接口、报警输出、RS485 接口、调制型红外接口要求 两个 RJ45 接口，两个 RS485 接口 (宜)RS485 授时接口，采用 IRIG-B（DC)码方式与站内授时源对时.  辅助电源接口  辅助电源供电电压为（100～240）V 交、直流自适应 线路和辅助电源两种供电方式应能实现无间断自动转换  电池  抄表及全失压电池,输出电压为 6V，额定容量≥1200mAh 时钟电池,标称电压 3.6V，额定容量≥1200mAh，不可更换  测量功能 电压测量及电流测量(经互感器接入)
  电压测量范围： 0.05U nom ~1.5U nom ，测量误差（引用误差)不超过±0.2% 电流（含零线)测量范围：I min ~1.2I max , I min ~0.05I tr 时测量误差（引用误差)不超过±1%，0.05I tr 及以上测量误差（引用误差)不超过±0.5%；  参考  自主可控新一代变电站二次系统技术规范 装置类系列规范 6 结算计量装置 三相智能电能表技术规范  \newpage</description>
-    </item>
-    
-    <item>
-      <title>行波测距</title>
-      <link>https://fire.daotoyi.cn/zh/docs/electricity/xing-bo-ce-ju/</link>
-      <pubDate>Sun, 13 Mar 2022 11:47:46 +0800</pubDate>
-      
-      <guid>https://fire.daotoyi.cn/zh/docs/electricity/xing-bo-ce-ju/</guid>
-      <description>产品描述 500kV 及以上系统的交流线路、220kV 长度超过 50kM 或多单位维护的交流线路应配置集中式行波测距装置；其它 220kV 巡线困难的交流线路宜装设行波测距装置。
-对时 有对时功能，对时误差不大于 1μs。
-通信接口  装置应具备至少 4 个独立的 10M 及以上以太网接口。 应具备打印接口。 宜具备 USB 转存接口。  无源节点 当地告警信号应不少于 3 对硬接点输出，分别为装置起动、装置失电、装置故障。
-信号接入  对交流线路，行波测距装置可直接接入 CT 二次侧、PT 二次侧或在互感器接地回路经专用互感器提取行波信号； 对直流线路，行波测距装置通过测量直流耦合电容器接地引线电流的专用互感器提取行波信号。  采集频率 装置采样频率不小于 1MHz.</description>
     </item>
     
     <item>

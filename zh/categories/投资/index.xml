@@ -5,18 +5,46 @@
     <link>https://fire.daotoyi.cn/zh/categories/%E6%8A%95%E8%B5%84/</link>
     <description>Recent content in 投资 on FIRE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Mar 2022 17:25:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jul 2022 08:29:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fire.daotoyi.cn/zh/categories/%E6%8A%95%E8%B5%84/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About fund</title>
+      <title>国债</title>
+      <link>https://fire.daotoyi.cn/zh/posts/general-national-debt/</link>
+      <pubDate>Sat, 23 Jul 2022 08:29:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/posts/general-national-debt/</guid>
+      <description>国债 国债是以国债信用为担保发行的理财产品，在所有投资理财产品中，有着安全性最好、预期收益最稳定的特性。
+影响国债价格的因素很多，比如国家信用等，但是最主要的因素还是 利率 ，利率又分为票面利率和市场利率.
+价格和利率 票面利率 - 正相关 国债是以固定的票面利率发行的，因此国债发行之后，它的票面利率是固定的，不会随着市场的利率改变而改变。
+票面利率越高，国债的价格也越高，两者呈现出正相关性.
+实际利率 - 负相关  当当期利率上升时，其他条件不变的情况下，国债的票面价格会下降 当当期利率下降时，国债的票面价格会上升。  两者之间，呈现出负相关性，这是由债券属性所决定的。
+当银行利率上升时， 为了保持固定的票面利率 ，国债价格会下降。
+X * （1 + 10%） = 100 * （1 + 5%）
+ 票面利率 5% 银行利率由 5%上涨到 10% 国债的理论价格X  </description>
+    </item>
+    
+    <item>
+      <title>基本概念</title>
+      <link>https://fire.daotoyi.cn/zh/docs/invest/futures/basic-concpetion/</link>
+      <pubDate>Sun, 17 Jul 2022 20:51:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/docs/invest/futures/basic-concpetion/</guid>
+      <description>:END:
+套期保值 套期保值，又称对冲贸易，是指交易人在买进（或卖出）实际货物的同时，在期货交易所卖出（或买进）同等数量的期货交易合约作为保值。
+套利交易 套利交易是指利用相关市场或相关合约之间的价差变化，在相关市场或相关合约上进行交易方向相反的交易，以期望价差发生变化而获利的交易行为。
+套期保值 VS 套利交易     套期保值 套利交易     目的 转移市场风险，并不以盈利为目的 承担较小风险的同时,获得较为稳定的利润   基础 没有现货市场的交易需求，就不会持有期货部位    市场范围 只涉及现货和期货两个市场 在期货和现货市场-期现套利; 期货市场套利(跨期套利,跨品种套利,跨市场套利)   依据 期货市场和现货市场价格变动的一致性 期货与现货之间，或者期货合约之间的价格出现的不合理偏差来获取套利利润    </description>
+    </item>
+    
+    <item>
+      <title>关于基金</title>
       <link>https://fire.daotoyi.cn/zh/docs/invest/general/about-fund/</link>
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/zh/docs/invest/general/about-fund/</guid>
-      <description>fund 基金的组织形式通常是采取 有限合似制 ，而非公司制。这是因为有限合伙只涉及一次征税，即退出 的时候交税。
+      <description>基金 基金的组织形式通常是采取 有限合似制 ，而非公司制。这是因为有限合伙只涉及一次征税，即退出 的时候交税。
 如果是有限责任公司，就涉及两层税制，公司层面交一次企业所得税，分红的时候交一次个人所得税。</description>
     </item>
     

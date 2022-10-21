@@ -9,5 +9,17 @@
 	<atom:link href="https://fire.daotoyi.cn/zh/docs/invest/futures/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>基本概念</title>
+      <link>https://fire.daotoyi.cn/zh/docs/invest/futures/basic-concpetion/</link>
+      <pubDate>Sun, 17 Jul 2022 20:51:00 +0000</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/zh/docs/invest/futures/basic-concpetion/</guid>
+      <description>:END:
+套期保值 套期保值，又称对冲贸易，是指交易人在买进（或卖出）实际货物的同时，在期货交易所卖出（或买进）同等数量的期货交易合约作为保值。
+套利交易 套利交易是指利用相关市场或相关合约之间的价差变化，在相关市场或相关合约上进行交易方向相反的交易，以期望价差发生变化而获利的交易行为。
+套期保值 VS 套利交易     套期保值 套利交易     目的 转移市场风险，并不以盈利为目的 承担较小风险的同时,获得较为稳定的利润   基础 没有现货市场的交易需求，就不会持有期货部位    市场范围 只涉及现货和期货两个市场 在期货和现货市场-期现套利; 期货市场套利(跨期套利,跨品种套利,跨市场套利)   依据 期货市场和现货市场价格变动的一致性 期货与现货之间，或者期货合约之间的价格出现的不合理偏差来获取套利利润    </description>
+    </item>
+    
   </channel>
 </rss>
