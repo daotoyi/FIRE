@@ -1,6 +1,7 @@
 +++
-title = "行波测距"
-lastmod = 2022-03-13T11:47:46+08:00
+title = "行波测距装置"
+date = "2022-08-21 11:57:00"
+lastmod = "2022-08-21 11:57:54"
 categories = ["Power"]
 draft = false
 +++
